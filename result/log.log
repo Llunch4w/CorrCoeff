@@ -1,0 +1,10 @@
+
+2022-10-17 10:00:01.157 | INFO     | __main__:<module>:35 - Configuration:
+calculator          :kendall
+dataset             :/Users/luckyq/D/Code/github_repo/CorrCoeff/data/test.txt
+log_dir             :/Users/luckyq/D/Code/github_repo/CorrCoeff/result
+2022-10-17 10:00:01.158 | INFO     | __main__:<module>:37 - Loading data from /Users/luckyq/D/Code/github_repo/CorrCoeff/data/test.txt....
+2022-10-17 10:00:01.158 | INFO     | __main__:<module>:39 - Loading Success!
+2022-10-17 10:00:01.158 | INFO     | __main__:<module>:40 - X = [1.0, 2.0, 3.0, 4.0, 5.0, 6.0]
+Y=[0.3, 0.9, 2.7, 2.0, 3.5, 5.0]
+2022-10-17 10:00:01.158 | INFO     | __main__:<module>:46 - The correlation coeffcient of kendall is 0.8666666666666667
