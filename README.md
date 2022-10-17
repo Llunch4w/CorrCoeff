@@ -62,6 +62,20 @@ $$
 \tau = \frac{(number\ of\ concordant\ pairs) - (number\ of\ discordant\ pairs)}{\frac{1}{2}n(n-1)}
 $$
 
+## Code
+```python
+n = len(x)
+t = 0
+for i in range(len(x)):
+    for j in range(i+1):
+        s = (x[i] - x[j]) * (y[i] - y[j])
+        if s > 0:
+            t += 1
+        elif s < 0:
+            t -= 1
+res = 2 * t / float(n*(n-1))
+```
+
 # 运行方式
 ```bash
 sh script/run.sh
